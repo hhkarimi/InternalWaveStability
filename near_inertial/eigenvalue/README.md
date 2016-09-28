@@ -17,4 +17,4 @@ Ortho-normalizes the differential equation.  This step is necessary since the sy
 The objective/error function to be optimized.
 
 ## `GSBcomparison.m`
-Comparison of the theoretical formulation in my PhD thesis to [Gerkema et al.](http://onlinelibrary.wiley.com/doi/10.1029/2005GL025105/full).
+Comparison of the theoretical formulation in my PhD thesis to [Gerkema et al.](http://onlinelibrary.wiley.com/doi/10.1029/2005GL025105/full)
