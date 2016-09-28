@@ -8,3 +8,13 @@ Loads an initial guess for eigenvalues (usually found from a finite difference s
 Defines the nondimensional, cross-sectional profile of the beam.  Typically taken to be a Gaussian or a tanh-tanh (smoothened top-hat) function.
 
 ## `ddn.m`
+Defines the boundary value problem by a system of differential equations which takes kappa and the eigenvalue as paramters.  The system is satisfied when the parameter kappa and the associated eigenvalue are compatible.
+
+## `odeON.m`
+Ortho-normalizes the differential equation.  This step is necessary since the system is stiff and numerical error can contaminate the true solution.
+
+## `res_eigML.m`
+The objective/error function to be optimized.
+
+## `GSBcomparison.m`
+Comparison of the theoretical formulation in my PhD thesis to [Gerkema et al.](http://onlinelibrary.wiley.com/doi/10.1029/2005GL025105/full).
