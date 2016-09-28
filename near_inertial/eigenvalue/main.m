@@ -4,9 +4,9 @@ clc, clear all, close all
 set(0,'defaulttextinterpreter','latex')
 
     % load parameters (k,sf) and initial guesses (dnew)
-[filename, pathname] =  uigetfile('*.mat','Load parameters and initial guesses for lambdahat');
-completename = fullfile(pathname, filename);
-load(completename);
+%[filename, pathname] =  uigetfile('*.mat','Load parameters and initial guesses for lambdahat');
+%completename = fullfile(pathname, filename);
+%load(completename);
     % loads lambdahat, sigmahat, and kappa: ALSO CHANGE IN SAVED FILE NAME WHEN CHOOSING A DIFFERENT EV BRANCH!
 % lambdahat1 = lambdahat(1); % ALSO CHANGE IN SAVED FILE NAME WHEN CHOOSING A DIFFERENT EV BRANCH!
 % lambdahat1 = lambdahat(2); % ALSO CHANGE IN SAVED FILE NAME WHEN CHOOSING A DIFFERENT EV BRANCH!
